@@ -1,0 +1,170 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('img/fondp4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url('img/fondo2.avif');
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(191, 172, 63);
+    font-family: 'Josefin Sans', 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(168, 167, 161);
+    margin: 0 15px;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    color: rgb(21, 42, 22);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    background-image: url('img/fondo2.avif');
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container > div {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #1d442c;
+    padding: 10px;
+    border-radius: 8px; /* Añade esquinas redondeadas */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Agrega animación de transformación y sombra al señalar */
+}
+
+.image-container > div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-description {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_loki {
+    width: 250px;
+    height: 380px;
+    background-image: url('img/fondo2.avif');
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo_loki:hover {
+    transform: scale(1.1);
+}
+
+.biografia {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    font-size: 45px;
+}
+
+.bibliografia {
+    font-size: 30px;
+}
+
+/* Otros estilos necesarios */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.image-item {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
