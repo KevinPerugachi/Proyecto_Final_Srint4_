@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url('img/fondo2.avif');
+    background-image: url('img/fondo.jpg');
     padding: 1rem;
     margin: 0;
     text-align: center;
@@ -45,7 +45,7 @@ form {
 }
 
 footer {
-    background-image: url('img/fondo2.avif');
+    background-image: url('img/fondo.jpg');
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -64,8 +64,8 @@ footer {
     text-align: center;
     border: 1px solid #1d442c;
     padding: 10px;
-    border-radius: 8px; /* Añade esquinas redondeadas */
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Agrega animación de transformación y sombra al señalar */
+    border-radius: 8px; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
 
 .image-container > div:hover {
@@ -92,7 +92,7 @@ footer {
 .logo_loki {
     width: 250px;
     height: 380px;
-    background-image: url('img/fondo2.avif');
+    background-image: url('img/fondo.jpg');
     border-radius: 15px;
     transition: transform 0.3s ease-in-out;
 }
@@ -113,7 +113,6 @@ footer {
     font-size: 30px;
 }
 
-/* Otros estilos necesarios */
 form {
     max-width: 400px;
     margin: 0 auto;
